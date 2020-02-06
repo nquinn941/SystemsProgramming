@@ -1,0 +1,19 @@
+./serverRun & ./clientRun /home/COIS/3380/;lab4_sourcefile
+[1] 352
+Socket creation successful-server
+Bind successful-server
+Listen successful
+Socket successfully created-client
+connected to the server
+Server accepted
+File Opened
+1024
+897
+Number of bytes read from server is 1024
+End of file reached - server
+Number of bytes read from server is 897
+[1]+  Done                    ./serverRun
+[niallquinn@loki lab6]$ md5sum /home/COIS/3380/lab4_sourcefuleile ./serverRun & ./clientRun /home/COIS/3380/lab4_sourcefilemd5sum labSourceFileLocalCopylsmd5sum labSourceFileLocalCopy /home/COIS/3380/lab4_sourcefile
+9fd8213663918961f962f192c7b4d1f0  labSourceFileLocalCopy
+9fd8213663918961f962f192c7b4d1f0  /home/COIS/3380/lab4_sourcefile
+[niallquinn@loki lab6]$ 

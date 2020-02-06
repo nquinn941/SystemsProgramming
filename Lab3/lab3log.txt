@@ -1,0 +1,29 @@
+gcc -Wall -o lab3execute lab3code.cnanogcc -Wall -o lab3executenano./lab3execute -p -m -i -a  /home/COIS/3380
+Current directory is /home/COIS/3380 
+INODE	PERMISSIONS	LAST ACCESS			LAST MOD			SIZE		NAME
+656677	-rwxr-x---	Wed 2017-07-12 11:33:40 EDT	Sun 2019-02-10 15:56:29 EST	58444236	secure-20170703
+657744	-rwxr-xr-x	Wed 2017-11-15 15:32:57 EST	Mon 2019-01-28 18:14:19 EST	1921		lab_sourcefile
+661348	-rw-r--r--	Mon 2019-01-14 11:38:21 EST	Mon 2019-01-28 18:14:19 EST	477		NULL
+656676	-rwxr-x---	Wed 2017-07-12 11:33:39 EDT	Sun 2019-02-10 15:56:29 EST	53209238	secure-20170625
+656685	-rw-r--r--	Sat 2017-08-12 10:00:08 EDT	Thu 2019-01-31 21:41:45 EST	3464447	lab0_ip_addresses.txt
+657526	-rwxr-xr-x	Mon 2017-10-16 15:36:12 EDT	Mon 2019-01-28 18:14:19 EST	1921		lab4_sourcefile
+656678	-rwxr-x---	Wed 2017-07-12 11:33:40 EDT	Sun 2019-02-10 15:56:30 EST	39340706	secure-20170709
+656675	-rwxr-x---	Wed 2017-07-12 11:33:39 EDT	Sun 2019-02-10 15:56:28 EST	49884328	secure-20170619
+656674	-rwxr-x---	Wed 2017-07-12 11:33:38 EDT	Sun 2019-02-10 13:39:24 EST	21898259	secure
+656679	-rw-r--r--	Tue 2017-07-25 11:23:57 EDT	Wed 2019-02-27 17:37:31 EST	616		lab2_document.txt
+[niallquinn@loki lab3]$ ./lab3execute -p -m -i -a -d  /home/COIS/3380
+Current directory is /home/COIS/3380 
+INODE	PERMISSIONS	LAST MOD			SIZE		NAME
+657179	drwxr-xr-x	Mon 2019-02-04 17:16:39 EST	4096		sample_code
+656677	-rwxr-x---	Wed 2017-07-12 11:33:40 EDT	58444236	secure-20170703
+657744	-rwxr-xr-x	Wed 2017-11-15 15:32:57 EST	1921		lab_sourcefile
+661348	-rw-r--r--	Mon 2019-01-14 11:38:21 EST	477		NULL
+656676	-rwxr-x---	Wed 2017-07-12 11:33:39 EDT	53209238	secure-20170625
+656685	-rw-r--r--	Sat 2017-08-12 10:00:08 EDT	3464447	lab0_ip_addresses.txt
+657526	-rwxr-xr-x	Mon 2017-10-16 15:36:12 EDT	1921		lab4_sourcefile
+661351	drwxr-xr-x	Wed 2019-01-23 08:11:49 EST	4096		frigg
+656680	drwxr-xr-x	Sun 2017-07-30 15:37:02 EDT	4096		lab3
+656678	-rwxr-x---	Wed 2017-07-12 11:33:40 EDT	39340706	secure-20170709
+656675	-rwxr-x---	Wed 2017-07-12 11:33:39 EDT	49884328	secure-20170619
+656674	-rwxr-x---	Wed 2017-07-12 11:33:38 EDT	21898259	secure
+656679	-rw-r--r--	Tue 2017-07-25 11:23:57 EDT	616		lab2_document.txt

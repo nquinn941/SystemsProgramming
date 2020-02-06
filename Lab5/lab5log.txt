@@ -1,0 +1,28 @@
+[niallquinn@loki lab5]$ gcc -Wall -o lab5execute
+[niallquinn@loki lab5]$ ./lab5execute
+Wait for a signal
+^C
+This is the 1 time you pressed ^C
+Wait for a signal
+^C
+This is the 2 time you pressed ^C
+Wait for a signal
+^C
+This is the 3 time you pressed ^C
+Wait for a signal
+^C
+This is the 4 time you pressed ^C
+Wait for a signal
+^C
+Max presses of ^C has been reached
+Wait for a signal
+^C
+
+[niallquinn@loki lab5]$ ./lab5execute
+Wait for a signal
+^\Wait for a signal
+
+I am Child, sending signal
+Killing parent with pid 57493
+Exiting program
+[niallquinn@loki lab5]$ 

@@ -1,0 +1,49 @@
+./executelab4
+-bash: ./executelab4: No such file or directory
+[niallquinn@loki lab4]$ ./executelab4cd lab4ls./zipDirectory.sh lab4lscd ~./lab4execute
+Parent: PID: 40931
+Child 1 with pid 40932 and ppid 40931 has been created
+
+Child 2 with pid 40933 and ppid 40931 has been created
+
+Grandchild with pid 40934 and ppid 40932 has been created
+
+files /home/COIS/3380/lab4_sourcefile and /home/niallquinn/lab4/lab4_file_copy have been opened
+Char count in /home/COIS/3380/lab4_sourcefile is 1921
+Child with pid 40933 has finished
+Waiting on child1
+Try again
+Waiting on child1
+Try again
+Waiting on child1
+
+Printing head of lab4.c
+Try again
+/* 
+
+Name: lab4.c
+
+Written by: Niall Quinn - March 2019
+
+Purpouse: Creates two children and a granchild process and performs various tasks
+
+Usage: 	gcc -Wall -O lab4execute lab4.c 
+	./lab4execute
+
+Subroutines/libraries: See below
+
+*/
+
+#include <sys/types.h>
+#include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/wait.h>
+Waiting on child1
+Try again
+Grandchild 40934 has exited
+Child with pid 40932 has finished
+[niallquinn@loki lab4]$ md5sum /home/COIS/3380/lab4_sourcefile lab4_file_copy
+9fd8213663918961f962f192c7b4d1f0  /home/COIS/3380/lab4_sourcefile
+9fd8213663918961f962f192c7b4d1f0  lab4_file_copy
+[niallquinn@loki lab4]$ 

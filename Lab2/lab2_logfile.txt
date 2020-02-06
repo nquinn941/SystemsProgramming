@@ -1,0 +1,26 @@
+nano logfile.txtscriptgcc -Wall -o execute_string_reverse string_reverse.ccd lab2~more lab2_document.txtcd ~lab2gcc -Wall -o execute_string_reverse string_reverse.c
+[niallquinn@loki lab2]$ gcc -Wall -o execute_string_reverse string_reverse.cnano logfile.txtgcc -Wall -o execute_string_reverse string_reverse.cgcc -Wall -o execute_string_reverse string_reverse.cnano logfile.txtscriptgcc -Wall -o execute_string_reverse string_reverse.ccd lab2~more lab2_document.txtlscd COIS/3380~lscd lab2nano output.txt./execute_string_reverse source.txtgcc -Wall -o execute_string_reverse string_reverse.c./execute_string_reverse source.txt output.txt
+Successfully opened source.txt
+Successfully opened output.txt
+Char count in source.txt is 187
+[niallquinn@loki lab2]$ ./execute_string_reverse source.txt output.txtoutput.txt.txt.txt.txt.txt.txts.txto.txtu.txtr.txtc.txte.txt.txt.txt.txt.txt.txt.txto.txtu.txtt.txtp.txtu.txtt.txt2.txt
+Successfully opened output.txt
+Successfully opened output2.txt
+Char count in output.txt is 187
+[niallquinn@loki lab2]$ md5sum source.txt
+33bb85e61296ab481db75407cc94fc63  source.txt
+[niallquinn@loki lab2]$ md5sum output2.txt
+33bb85e61296ab481db75407cc94fc63  output2.txt
+[niallquinn@loki lab2]$ md5sum output2.txtsource.txt./execute_string_reverse output.txt output2.txt/home/COIS/3380/lab2_document.txt.txt.txt.txt.txt.txt.txts.txta.txtm.txtp.txtl.txte.txt_.txto.txtu.txtt.txtp.txtu.txtt.txt
+Successfully opened /home/COIS/3380/lab2_document.txt
+Successfully opened sample_output.txt
+Char count in /home/COIS/3380/lab2_document.txt is 616
+[niallquinn@loki lab2]$ ./execute_string_reverse /home/COIS/3380/lab2_document.txt sample_output.txtsample_output.txt.txt.txt.txt.txt.txt.txt_.txtr.txte.txtv.txte.txtr.txte.txt.txts.txte.txtd.txt
+Successfully opened sample_output.txt
+Successfully opened sample_reversed.txt
+Char count in sample_output.txt is 616
+[niallquinn@loki lab2]$ md5sum /home/COIS?/33980/lab2_document.txt
+414c7f0d9ee9513bbcda93a3097a2031  /home/COIS/3380/lab2_document.txt
+[niallquinn@loki lab2]$ md5sume sample_reveresed.txt
+414c7f0d9ee9513bbcda93a3097a2031  sample_reversed.txt
+[niallquinn@loki lab2]$ 

@@ -1,0 +1,54 @@
+Script started on Tue 29 Jan 2019 08:42:09 PM EST
+]0;niallquinn@loki:~/lab1[?1034h[niallquinn@loki lab1]$ exit./authfails.sh "home/COIS/3380/secure*"/home/COIS/3380/secure*"
+Top 10 ips written to: top_10_ip.txt
+ 103897 58.218.198.150
+  56564 116.31.116.26
+  31582 58.218.198.151
+  27529 58.242.83.7
+  14320 59.63.166.80
+   7492 61.177.172.19
+   6459 182.100.67.119
+   5108 59.63.188.30
+   4446 61.177.172.24
+   3913 202.137.15.85
+--2019-01-29 20:42:28--  http://ipinfo.io/58.218.198.150
+Resolving ipinfo.io (ipinfo.io)... 216.239.36.21, 216.239.34.21, 216.239.38.21, ...
+Connecting to ipinfo.io (ipinfo.io)|216.239.36.21|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 179 [application/json]
+Saving to: ‘location.txt’
+
+ 0% [                                       ] 0           --.-K/s              100%[======================================>] 179         --.-K/s   in 0s      
+
+2019-01-29 20:42:28 (25.5 MB/s) - ‘location.txt’ saved [179/179]
+
+{
+  "ip": "58.218.198.150",
+  "city": "Kunshan",
+  "region": "Jiangsu",
+  "country": "CN",
+  "loc": "31.3776,120.9540",
+  "postal": "215311",
+  "org": "AS4134 CHINANET-BACKBONE"
+}--2019-01-29 20:42:28--  http://ipinfo.io/116.31.116.26
+Resolving ipinfo.io (ipinfo.io)... 216.239.38.21, 216.239.36.21, 216.239.34.21, ...
+Connecting to ipinfo.io (ipinfo.io)|216.239.38.21|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 179 [application/json]
+Saving to: ‘location2.txt’
+
+ 0% [                                       ] 0           --.-K/s              100%[======================================>] 179         --.-K/s   in 0s      
+
+2019-01-29 20:42:28 (26.1 MB/s) - ‘location2.txt’ saved [179/179]
+
+{
+  "ip": "116.31.116.26",
+  "city": "Yuanlong",
+  "region": "Guangdong",
+  "country": "CN",
+  "loc": "22.7699,112.9350",
+  "org": "AS134764 CHINANET Guangdong province network"
+}]0;niallquinn@loki:~/lab1[niallquinn@loki lab1]$ exit
+exit
+
+Script done on Tue 29 Jan 2019 08:42:40 PM EST
